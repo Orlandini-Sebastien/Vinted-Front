@@ -1,8 +1,5 @@
 import { useParams } from 'react-router-dom'
 
-
-
-
 const ProductPage = ({ data }) => {
 	const { id } = useParams()
 	
@@ -13,7 +10,6 @@ const ProductPage = ({ data }) => {
 				offer.push(data[i])
 			}
 		}
-
 		return offer
 	}
 	searchID()

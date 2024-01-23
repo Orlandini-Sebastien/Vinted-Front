@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import vinted from '../assets/vinted.webp'
 const Header = () => {
 	return (
 		<header className="bg-white">
@@ -6,7 +7,7 @@ const Header = () => {
 				<Link to={`/`}>
 					<img
 						className="flex p-2 w-24 object-fill"
-						src="../vinted.webp"
+						src={vinted}
 						alt="logo"
 					/>
 				</Link>

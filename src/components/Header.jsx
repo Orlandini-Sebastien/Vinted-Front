@@ -17,13 +17,13 @@ const Header = () => {
 					type="text"
 					placeholder="Recherche des articles"
 				/>
-				<button className="text-blue-vinted border-blue-vinted border rounded-md p-2 m-2 w-40 text-xs max-md:w-[31%]">
+				<button className="text-blue-vinted border-blue-vinted border rounded-md md:p-2 m-2 w-40 text-xs max-md:w-[32%]">
 					S'inscrire
 				</button>
-				<button className="text-blue-vinted  border-blue-vinted border rounded-md p-2 m-2 w-40 text-xs max-md:w-[31%]">
+				<button className="text-blue-vinted  border-blue-vinted border rounded-md md:p-2 m-2 w-40 text-xs max-md:w-[32%]">
 					Se connecter
 				</button>
-				<button className="bg-blue-vinted  rounded-md p-2 m-2 text-white w-40 text-xs max-md:w-[31%]">
+				<button className="bg-blue-vinted  rounded-md md:p-2 m-2 text-white w-40 text-xs max-md:w-[32%]">
 					Vends tes articles
 				</button>
 			</header>

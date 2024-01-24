@@ -4,10 +4,9 @@ import Offers from '../components/Offers'
 import hero from '../assets/banner-tablets-up-afe3d19776592a72f165c1bb93fd02c5528250a8c670ecc1656654323f9d4856.jpg'
 import tear from '../assets/tear.884480420945b3afd77b44a6c5f98567.svg'
 
-
-
-const HomePage = ({ data, setData }) => {
+const HomePage = () => {
 	const [isLoading, setIsLoading] = useState(true)
+	const [data, setData] = useState([])
 
 	useEffect(() => {
 		const fetchData = async () => {
@@ -32,16 +31,8 @@ const HomePage = ({ data, setData }) => {
 		<p>Chargement en cours ...</p>
 	) : (
 		<div className="  relative h-scree2/3">
-			<img
-				className="h-full w-full object-cover"
-				src={hero}
-				alt="hero"
-			/>
-			<img
-				className="absolute w-full bottom-0"
-				src={tear}
-				alt="tear"
-			/>
+			<img className="h-full w-full object-cover" src={hero} alt="hero" />
+			<img className="absolute w-full bottom-0" src={tear} alt="tear" />
 			<div className="w-5/6 m-auto">
 				<div className="absolute top-1/4 flex flex-col justify-around  bg-white h-1/2 xl:w-1/5 lg:w-2/6 md:w-1/3 max-md:w-1/3  rounded-lg p-4">
 					<div className="text-2xl">

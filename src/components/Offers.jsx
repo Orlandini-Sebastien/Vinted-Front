@@ -7,7 +7,7 @@ const Offers = ({ data }) => {
 			{data.map((elem) => {
 				return (
 					<Link
-						to={`/OffersPage/${elem._id}`}
+						to={`/offer/${elem._id}`}
 						className="px-4 my-4 max-md:p-8  mx-auto xl:w-[19%] lg:w-[24%] md:w-[49%] max-md:w-11/12"
 						key={elem._id}
 					>

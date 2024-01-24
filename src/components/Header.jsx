@@ -18,7 +18,7 @@ const Header = () => {
 					placeholder="Recherche des articles"
 				/>
 				<button className="text-blue-vinted border-blue-vinted border rounded-md p-2 m-2 w-40 text-xs">
-					S'inscrire
+					S`&rsquo;`inscrire
 				</button>
 				<button className="text-blue-vinted  border-blue-vinted border rounded-md p-2 m-2 w-40 text-xs">
 					Se connecter

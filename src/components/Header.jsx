@@ -3,7 +3,7 @@ import vinted from '../assets/vinted.webp'
 const Header = () => {
 	return (
 		<header className="bg-white">
-			<header className="flex max-md:flex-wrap w-5/6 m-auto py-4 items-center">
+			<header className="flex max-md:flex-wrap md:w-5/6 max-md:11/12 m-auto py-4 items-center">
 				<Link to={`/`}>
 					<img
 						className="flex p-2 w-24 object-fill"
@@ -17,13 +17,13 @@ const Header = () => {
 					type="text"
 					placeholder="Recherche des articles"
 				/>
-				<button className="text-blue-vinted border-blue-vinted border rounded-md md:p-2 m-2 w-40 text-xs max-md:w-[32%]">
+				<button className="text-blue-vinted border-blue-vinted border rounded-md p-2 m-2 w-40 text-xs max-md:w-[32%]">
 					S'inscrire
 				</button>
-				<button className="text-blue-vinted  border-blue-vinted border rounded-md md:p-2 m-2 w-40 text-xs max-md:w-[32%]">
+				<button className="text-blue-vinted  border-blue-vinted border rounded-md p-2 m-2 w-40 text-xs max-md:w-[32%]">
 					Se connecter
 				</button>
-				<button className="bg-blue-vinted  rounded-md md:p-2 m-2 text-white w-40 text-xs max-md:w-[32%]">
+				<button className="bg-blue-vinted  rounded-md p-2 m-2 text-white w-40 text-xs max-md:w-[32%]">
 					Vends tes articles
 				</button>
 			</header>
